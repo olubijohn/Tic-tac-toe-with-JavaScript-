@@ -1,0 +1,69 @@
+:root {
+  --navy: #293462;
+  --purple: #C8B6E2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--purple);
+}
+.wrapper {
+  background: var(--navy);
+  padding: 35px;
+  border-radius: 20px;
+}
+.container .head {
+  text-align: center;
+  margin: 10px 0;
+  color: var(--purple);
+}
+
+.container button {
+  width: 90px;
+  height: 90px;
+  background: #7A4069;
+  cursor: pointer;
+  border: 1px solid;
+  font-size: 20px;
+  font-weight: bold;
+}
+.first, .second, .third {
+  display: flex;
+  height: 90px;
+  border: 1px solid;
+}
+.game-over {
+  text-align: center;
+  font-size: 18px;
+}
+.game-over button, .start button {
+  padding: 8px 18px;
+  border: none;
+  background: #7A4069;
+  cursor: pointer;
+}
+.game-over p {
+  margin: 8px 0;
+  font-size: 15px;
+}
+.start {
+  margin: 20px;
+}
+.start button {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
